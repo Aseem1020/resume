@@ -23,7 +23,7 @@ function Home2() {
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="purple"> HTML,Css, Javascript and React. </b>
+                <b className="purple"> HTML,Css, Javascript, React and Express JS </b>
               </i>
               <br />
               <br />

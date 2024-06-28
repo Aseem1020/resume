@@ -9,6 +9,7 @@ import {
   DiGit,
   
 } from "react-icons/di";
+import { SiExpress } from "react-icons/si";
 
 
 function Techstack() {
@@ -31,6 +32,9 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiGit />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+      <SiExpress />
       </Col>
    
     </Row>
