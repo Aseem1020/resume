@@ -9,7 +9,7 @@ import form from "../../Assets/Projects/form.jpeg";
 import biodata from "../../Assets/Projects/biodata.jpeg";
 import website from "../../Assets/Projects/website.jpeg";
 import art from "../../Assets/Projects/art.jpeg";
-
+import shoes from "../../Assets/Projects/shoes.png";
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -83,6 +83,15 @@ function Projects() {
               isBlog={false}
               title="Art Website Using HTML,CSS and JS"
               ghLink="https://bhavisha262.github.io/Art-Website/Art%20Gallery.html"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={shoes}
+              isBlog={false}
+              title="E-Commerce Full Stack"
+              ghLink="https://fsdshoes.vercel.app/"
             />
           </Col>
         </Row>
